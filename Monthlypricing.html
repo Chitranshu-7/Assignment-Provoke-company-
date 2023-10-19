@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .pricing-table {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            text-align: center;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+
+        .pricing-table-header {
+            background-color: rgb(20, 75, 216);
+            color: #fff;
+            font-weight: bold;
+            padding: 15px;
+        }
+
+        .pricing-table-data {
+            padding: 15px;
+        }
+
+        .pricing-table-row:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pricing-table">
+        <div class="pricing-table-header"></div>
+        <div class="pricing-table-header">Mobile</div>
+        <div class="pricing-table-header">Basic</div>
+        <div class="pricing-table-header">Standard</div>
+        <div class="pricing-table-row">
+            <div class="pricing-table-data">Monthly Price</div>
+            <div class="pricing-table-data">$9.99</div>
+            <div class="pricing-table-data">$19.99</div>
+            <div class="pricing-table-data">$29.99</div>
+        </div>
+        <div class="pricing-table-row">
+            <div class="pricing-table-data">Video Quality</div>
+            <div class="pricing-table-data">Good</div>
+            <div class="pricing-table-data">Better</div>
+            <div class="pricing-table-data">Best</div>
+        </div>
+        <div class="pricing-table-row">
+            <div class="pricing-table-data">Resolution</div>
+            <div class="pricing-table-data">720p</div>
+            <div class="pricing-table-data">1080p</div>
+            <div class="pricing-table-data">4K</div>
+        </div>
+        <div class="pricing-table-row">
+            <div class="pricing-table-data">Devices you can watch on</div>
+            <div class="pricing-table-data">1</div>
+            <div class="pricing-table-data">2</div>
+            <div class="pricing-table-data">4</div>
+        </div>
+    </div>
+</body>
+
+</html>
